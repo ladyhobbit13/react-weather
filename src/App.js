@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Walking Weather</h1>
+        <Weather />
         <footer>
           This project was coded by{" "}
           <a href="https://focused-borg-61dda1.netlify.app/" target="_blank">
